@@ -19,7 +19,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Class-Trigger >= 0.08
 BuildRequires:	perl-Email-LocalDelivery >= 0.07
-BuildRequires:	perl-Email-Simple >= 1.91
+BuildRequires:	perl-Email-Simple >= 1:1.91
 BuildRequires:	perl-IPC-Run >= 0.77
 %endif
 BuildArch:	noarch
