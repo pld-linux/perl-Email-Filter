@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Email
-%define	pnam	Filter
+%define		pdir	Email
+%define		pnam	Filter
 Summary:	Email::Filter - library for creating easy email filters
 Summary(pl):	Email::Filter - biblioteka do tworzenia prostych filtrów dla poczty
 Name:		perl-Email-Filter
