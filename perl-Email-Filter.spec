@@ -8,19 +8,19 @@
 Summary:	Email::Filter - library for creating easy email filters
 Summary(pl):	Email::Filter - biblioteka do tworzenia prostych filtrów dla poczty
 Name:		perl-Email-Filter
-Version:	1.01
+Version:	1.02
 Release:	1
 License:	BSD, Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9186286616c6fb6a7d8a67ea5b2ae555
+# Source0-md5:	4abe1d7f471e57d8d05558df7277d453
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Class-Trigger
-BuildRequires:	perl-Email-LocalDelivery >= 0.04
-BuildRequires:	perl-Email-Simple >= 1.1
-BuildRequires:	perl-IPC-Run
+BuildRequires:	perl-Class-Trigger >= 0.08
+BuildRequires:	perl-Email-LocalDelivery >= 0.07
+BuildRequires:	perl-Email-Simple >= 1.91
+BuildRequires:	perl-IPC-Run >= 0.77
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
