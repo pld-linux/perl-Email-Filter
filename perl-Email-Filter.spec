@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Email
@@ -16,7 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	857a522c2c43991f59c65de9c8c05d40
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{!?_without_tests:1}0
+%if %{with tests}
 BuildRequires:	perl-Class-Trigger
 BuildRequires:	perl-Email-LocalDelivery >= 0.04
 BuildRequires:	perl-Email-Simple >= 1.1
@@ -45,7 +45,7 @@ opisuj±cych jak poczta powinna byæ filtrowana.
 	INSTALLDIRS=vendor
 %{__make}
 
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
