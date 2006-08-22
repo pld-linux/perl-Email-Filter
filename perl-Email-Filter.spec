@@ -9,11 +9,12 @@ Summary:	Email::Filter - library for creating easy email filters
 Summary(pl):	Email::Filter - biblioteka do tworzenia prostych filtrów dla poczty
 Name:		perl-Email-Filter
 Version:	1.03
-Release:	0.1
+Release:	1
 License:	BSD, Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	95c618c839910e98f4157712e27a225e
+URL:		http://search.cpan.org/~rjbs/Email-Filter-1.03/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -26,10 +27,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is another module produced by the "Perl Email Project", a reaction
-against the complexity and increasing bugginess of the "Mail::*"
-modules. It replaces Mail::Audit, and allows you to write programs
-describing how your mail should be filtered.
+This is another module produced by the "Perl Email Project", a
+reaction against the complexity and increasing bugginess of the
+"Mail::*" modules. It replaces Mail::Audit, and allows you to write
+programs describing how your mail should be filtered.
 
 %description -l pl
 To jest kolejny modu³ wyprodukowany przez "Perl Email Project", bêd±cy
