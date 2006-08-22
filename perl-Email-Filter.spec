@@ -14,7 +14,7 @@ License:	BSD, Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	95c618c839910e98f4157712e27a225e
-URL:		http://search.cpan.org/~rjbs/Email-Filter-1.03/
+URL:		http://search.cpan.org/dist/Email-Filter/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
