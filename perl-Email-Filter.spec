@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Filter
 Summary:	Email::Filter - library for creating easy email filters
-Summary(pl):	Email::Filter - biblioteka do tworzenia prostych filtrów dla poczty
+Summary(pl.UTF-8):   Email::Filter - biblioteka do tworzenia prostych filtrÃ³w dla poczty
 Name:		perl-Email-Filter
 Version:	1.03
 Release:	1
@@ -32,11 +32,11 @@ reaction against the complexity and increasing bugginess of the
 "Mail::*" modules. It replaces Mail::Audit, and allows you to write
 programs describing how your mail should be filtered.
 
-%description -l pl
-To jest kolejny modu³ wyprodukowany przez "Perl Email Project", bêd±cy
-reakcj± na z³o¿ono¶æ i rosn±cy wspó³czynnik zapluskwienia modu³ów
-Mail::*. Zastêpuje Mail::Audit i pozwala na pisanie programów
-opisuj±cych jak poczta powinna byæ filtrowana.
+%description -l pl.UTF-8
+To jest kolejny moduÅ‚ wyprodukowany przez "Perl Email Project", bÄ™dÄ…cy
+reakcjÄ… na zÅ‚oÅ¼onoÅ›Ä‡ i rosnÄ…cy wspÃ³Å‚czynnik zapluskwienia moduÅ‚Ã³w
+Mail::*. ZastÄ™puje Mail::Audit i pozwala na pisanie programÃ³w
+opisujÄ…cych jak poczta powinna byÄ‡ filtrowana.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
