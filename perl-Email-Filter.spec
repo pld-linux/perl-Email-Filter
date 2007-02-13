@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Filter
 Summary:	Email::Filter - library for creating easy email filters
-Summary(pl.UTF-8):   Email::Filter - biblioteka do tworzenia prostych filtrów dla poczty
+Summary(pl.UTF-8):	Email::Filter - biblioteka do tworzenia prostych filtrów dla poczty
 Name:		perl-Email-Filter
 Version:	1.03
 Release:	1
